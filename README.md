@@ -14,6 +14,7 @@ just a silly learning project for me to learn how sorting algorithms work from t
 ### future:
 - selection sort
 - more different algorithms
+- more dataset flexibility (duplicates compatible)
 - visualisation
 - maybe some kind of normal text interface for actual comparisons and tests of algorithms
 
