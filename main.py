@@ -111,7 +111,25 @@ def realinsert(data):
     print(f'comparisons made:', comp, f'shifts made:', shifts, f'insertions made:', insertions)
 
 
+def selectionsort(data):
+    dataset = data.copy()
+    unsi = 0
+    for i in range(len(dataset)):
+        smallest = dataset[unsi]
+        for i in range(len(dataset) - unsi):
+            if dataset[unsi + i] > smallest:
+                i += 1
+                continue
+            if dataset[unsi + i] < smallest:
+                smallest = dataset[unsi + i]
+                i += 1
+                continue
+        dataset[dataset.index(smallest)] = dataset[unsi]
+        dataset[unsi] = smallest
+        unsi += 1
+    print(dataset)
+    check(dataset)
+
+
 print(data)
-bubblesort(data)
-insertsort(data)
-realinsert(data)
+selectionsort(data)
