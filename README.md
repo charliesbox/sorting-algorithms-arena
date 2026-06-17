@@ -5,6 +5,7 @@ just a silly learning project for me to learn how sorting algorithms work from t
 - bubble sort
 - insertion sort
 - some wrecked insertion sort i made by accident
+- selection sort
 ### tracks:
 - comparisons
 - swaps (for certain algorithms)
@@ -12,7 +13,6 @@ just a silly learning project for me to learn how sorting algorithms work from t
 - shifts (for certain algorithms)
 
 ### future:
-- selection sort
 - more different algorithms
 - more dataset flexibility (duplicates compatible)
 - visualisation
