@@ -10,7 +10,6 @@ just a silly learning project for me to learn how sorting algorithms work from t
 - comparisons
 - swaps (for certain algorithms)
 - insertions (for certain algorithms)
-- shifts (for certain algorithms)
 
 ### future:
 - more different algorithms
